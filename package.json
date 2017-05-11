@@ -1,0 +1,35 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "A serie of bots to automate different tasks",
+  "main": "index.js",
+  "engines": {
+    "node": "7.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfhuertac/bots.git"
+  },
+  "keywords": [
+    "bots",
+    "nodejs",
+    "slack",
+    "messenger"
+  ],
+  "author": "Gonzalo Huerta Canepa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfhuertac/bots/issues"
+  },
+  "homepage": "https://github.com/gfhuertac/bots#readme",
+  "dependencies": {
+    "botkit": "0.5.4",
+    "dotenv": "4.0.0",
+    "inquirer": "3.0.6",
+    "readline-sync": "1.4.7",
+    "simple-git": "1.72.0"
+  }
+}
