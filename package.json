@@ -29,6 +29,7 @@
     "botkit": "0.5.4",
     "dotenv": "4.0.0",
     "inquirer": "3.0.6",
+    "johnny-five": "0.10.13",
     "readline-sync": "1.4.7",
     "simple-git": "1.72.0"
   }
