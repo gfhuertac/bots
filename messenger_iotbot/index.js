@@ -18,6 +18,11 @@ const controller = Botkit.facebookbot({
 access_control.addUserRoles('1385564591538464', 'family');
 access_control.allow('family', ['front_door'], 'open');
 
+// initializes the smart home interface
+sh.sh_init(function(err) {
+  if (err) console.log(err);
+});
+
 // error handling method
 const handle_error = function(err, bot, message, reason) {
   console.log(err);
